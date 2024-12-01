@@ -1,0 +1,80 @@
+Diagrama de classes
+https://www.figma.com/board/PjvUNzadljsjxaferUElPJ/Projeto-POO?node-id=0-1&t=v76VFeCFmUmDoygQ-1 
+
+### Classes
+
+1. **Livro**
+   - Atributos: título, autor, ISBN, ano de publicação, disponibilidade.
+   - Métodos: emprestar(), devolver(), reservar().
+
+2. **Usuário**
+   - Atributos: nome, ID do usuário, e-mail, histórico de empréstimos.
+   - Métodos: registrar(), visualizarHistórico(), renovarEmprestimo().
+
+3- Adim
+4 Estudante
+
+
+5. **Categoria**
+   - Atributos: nome, descrição.
+   - Métodos: adicionarLivro(), removerLivro().
+
+6 Editora
+7estoque
+8 livro
+9 publicacao
+revista
+jornal
+Mapas
+artigo
+
+Mapas geográficos
+Mapas históricos
+Mapas temáticos
+
+
+
+10 . **Reserva**
+   - Atributos: livro, usuário, data da reserva.
+   - Métodos: cancelarReserva().
+
+ReservaPrioritaria
+ReservaComum
+
+11 Mídia
+
+12 DVD
+documentario
+videoaula
+
+
+13 CD
+Audiolivro
+podcast
+
+15 Evento
+
+16 Palestra
+17 Workshop
+18 ClubeDoLivro
+
+
+
+### Interfaces
+
+1. **IAcionamento**
+   - Métodos: emprestar(), devolver(), reservar().
+
+2. **gestor**
+   - Métodos: registrar(), excluirUsuario(), atualizarUsuario().
+
+3. **buscar**
+   - Métodos: buscarPorTitulo(), buscarPorAutor(), buscarPorCategoria().
+
+4. **IMultas**
+   - Métodos: calcularMulta(), visualizarMultas().
+
+5. **IGestaoEmprestimos**
+   - Métodos: listarEmprestimosAtivos(), finalizarEmprestimo().
+
+s.
